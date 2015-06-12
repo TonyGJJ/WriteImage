@@ -14,6 +14,8 @@
 		EAF592731B2A763D00233165 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF592721B2A763D00233165 /* Images.xcassets */; };
 		EAF592761B2A763D00233165 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF592741B2A763D00233165 /* LaunchScreen.xib */; };
 		EAF592821B2A763D00233165 /* WriteImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF592811B2A763D00233165 /* WriteImageTests.m */; };
+		EAF5928D1B2AB09B00233165 /* WriteImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF5928C1B2AB09B00233165 /* WriteImageTableViewController.m */; };
+		EAF592901B2AB41B00233165 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF5928F1B2AB41B00233165 /* ShowImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		EAF5927B1B2A763D00233165 /* WriteImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WriteImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF592801B2A763D00233165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF592811B2A763D00233165 /* WriteImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteImageTests.m; sourceTree = "<group>"; };
+		EAF5928B1B2AB09B00233165 /* WriteImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteImageTableViewController.h; sourceTree = "<group>"; };
+		EAF5928C1B2AB09B00233165 /* WriteImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteImageTableViewController.m; sourceTree = "<group>"; };
+		EAF5928E1B2AB41B00233165 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		EAF5928F1B2AB41B00233165 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				EAF5926A1B2A763D00233165 /* AppDelegate.m */,
 				EAF5926C1B2A763D00233165 /* ViewController.h */,
 				EAF5926D1B2A763D00233165 /* ViewController.m */,
+				EAF5928B1B2AB09B00233165 /* WriteImageTableViewController.h */,
+				EAF5928C1B2AB09B00233165 /* WriteImageTableViewController.m */,
+				EAF5928E1B2AB41B00233165 /* ShowImageViewController.h */,
+				EAF5928F1B2AB41B00233165 /* ShowImageViewController.m */,
 				EAF5926F1B2A763D00233165 /* Main.storyboard */,
 				EAF592721B2A763D00233165 /* Images.xcassets */,
 				EAF592741B2A763D00233165 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				EAF5926E1B2A763D00233165 /* ViewController.m in Sources */,
 				EAF5926B1B2A763D00233165 /* AppDelegate.m in Sources */,
+				EAF592901B2AB41B00233165 /* ShowImageViewController.m in Sources */,
 				EAF592681B2A763D00233165 /* main.m in Sources */,
+				EAF5928D1B2AB09B00233165 /* WriteImageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
